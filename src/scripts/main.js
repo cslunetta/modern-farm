@@ -1,7 +1,13 @@
-console.log("Welcome to the main module")
+console.log("Welcome to the main module");
 
-import {createPlan} from './plan.js'
+// Create plan generates random seeds to plant
+import { createPlan } from "./plan.js";
 
-const yearlyPlan = createPlan()
+const yearlyPlan = createPlan();
 
-console.log(yearlyPlan)
+console.log(yearlyPlan);
+
+import { createCorn } from "./seeds/corn.js";
+
+const cornSeed = createCorn();
+console.log(cornSeed);
