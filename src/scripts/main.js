@@ -28,3 +28,8 @@ addPlant(sunflowerSeed);
 // outputs copy of what is in the growingInTheField array
 const plants = usePlants();
 console.log(plants);
+
+import {plantSeeds} from "./tractor.js"
+
+plantSeeds(yearlyPlan)
+
